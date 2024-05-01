@@ -12,9 +12,11 @@ export default function HeroSection() {
 			<p className='md:w-96 text-lg text-gray-300'>
 				{"I am a front end developer based in Prague."}
 			</p>
-			<Link href={"mailto:themail@gnail.com"} className=' inline-block'>
+			<Link href={"mailto:themail@gnail.com"} className=' inline-block group'>
 				<div>
-					<h1>Get in touch!</h1>
+					<h1 className='text-3xl font-bold group-hover:text-green-400 transition-all '>Get in touch!</h1>
+					<div className='w-40 h-2 bg-green-500 rounded-full'></div>
+					<div className='w-40 h-2 bg-indigo-500 rounded-full translate-x-2'></div>
 				</div>
 			</Link>
 		</div>
