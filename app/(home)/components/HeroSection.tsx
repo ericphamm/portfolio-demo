@@ -3,23 +3,23 @@ import React from 'react'
 
 export default function HeroSection() {
   return (
-	<div>
-		<div>
-			<h1>
+	<div className='min-h-[60vh] flex items-center justify-between'>
+		<div className=''>
+			<h1 className='text-4xl lg:text-7xl font-bold'>
 				Nice to meet you! 
-				<br/> <span>{"Welcome"}</span>
+				<br/> <span className='underline underline-offset-8 decoration-green-500'>{"Welcome"}</span>
 			</h1>
-			<p>
+			<p className='md:w-96 text-lg text-gray-300'>
 				{"I am a front end developer based in Prague."}
 			</p>
-			<Link href={"mailto:themail@gnail.com"}>
+			<Link href={"mailto:themail@gnail.com"} className=' inline-block'>
 				<div>
 					<h1>Get in touch!</h1>
 				</div>
 			</Link>
 		</div>
 		<div>
-			<div className='w-72 h-72'>
+			<div className='w-72 h-72 space-y-3 -rotate-[30deg]'>
 				<div className='flex gap-3 translate-x-8'>
 					<div className='w-32 h-32 rounded-2xl bg-green-500'></div>
 					<div className='w-32 h-32 rounded-full bg-indigo-500'></div>
