@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
+import { MovingBorderBtn } from './ui/moving-border'
 
 export default function HeroSection() {
   return (
-	<div className='min-h-[60vh] flex items-center justify-between'>
-		<div className=''>
+	<div className='min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between'>
+		<div className='space-y-10 text-center lg:text-left'>
 			<h1 className='text-4xl lg:text-7xl font-bold'>
 				Nice to meet you! 
 				<br/> <span className='underline underline-offset-8 decoration-green-500'>{"Welcome"}</span>
@@ -31,8 +32,10 @@ export default function HeroSection() {
 					<div className='w-32 h-32 rounded-full bg-green-500'></div>
 				</div>
 			</div>
+			<MovingBorderBtn>
+				<p>Available for work</p>
+			</MovingBorderBtn>
 		</div>
-
 	</div>
   )
 }
