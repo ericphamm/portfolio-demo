@@ -1,6 +1,6 @@
+import { MovingBorderBtn } from '@/components/ui/moving-border'
 import Link from 'next/link'
 import React from 'react'
-import { MovingBorderBtn } from './ui/moving-border'
 
 export default function HeroSection() {
   return (
