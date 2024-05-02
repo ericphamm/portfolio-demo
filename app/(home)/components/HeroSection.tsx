@@ -21,7 +21,7 @@ export default function HeroSection() {
 				</div>
 			</Link>
 		</div>
-		<div>
+		<div className='relative'>
 			<div className='w-72 h-72 space-y-3 -rotate-[30deg]'>
 				<div className='flex gap-3 translate-x-8'>
 					<div className='w-32 h-32 rounded-2xl bg-green-500'></div>
@@ -32,9 +32,11 @@ export default function HeroSection() {
 					<div className='w-32 h-32 rounded-full bg-green-500'></div>
 				</div>
 			</div>
-			<MovingBorderBtn>
-				<p>Available for work</p>
-			</MovingBorderBtn>
+			<div className='absolute bottom-5 sm:bottom-14 left-0 sm:left-10 '>
+				<MovingBorderBtn borderRadius='0.5rem' className='p-3 font-semibold'>
+					<p>Available for work</p>
+				</MovingBorderBtn>
+			</div>
 		</div>
 	</div>
   )
