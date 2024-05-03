@@ -2,6 +2,9 @@ import { MovingBorderBtn } from '@/components/ui/moving-border'
 import Link from 'next/link'
 import React from 'react'
 import Title from './Title'
+import { TextGenerateEffect } from '@/components/ui/text-generate-effect';
+
+const words = `Oxygen gets you high. In a cata You accept your fate.  Blank faces, calm as Hindu cows`;
 
 export default function HeroSection() {
   return (
@@ -10,6 +13,7 @@ export default function HeroSection() {
 			<h1 className='text-4xl lg:text-7xl font-bold'>
 				Nice to meet you! 
 				{/* <br/> <span className='underline underline-offset-8 decoration-green-500'>{"Welcome"}</span> */}
+				<TextGenerateEffect words={words} />
 			</h1>
 			<p className='md:w-96 text-lg text-gray-300'>
 				{"I am a front end developer based in Prague."}
