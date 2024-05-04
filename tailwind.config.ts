@@ -66,6 +66,16 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        "move-up": {
+          from:{
+            transform: "translateY(10px)",
+            opacity:"0",
+          },
+          to:{
+            transform: "translateY(0px)",
+            opacity:"1",
+          },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
