@@ -1,3 +1,4 @@
+import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss"
 
 const svgToDataUri = require("mini-svg-data-uri");
@@ -86,8 +87,8 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "move-up": "move-up 1s linear fowards",
-        "move-down":"move-down 1s linear fowards",
+        "move-up": "move-up 1s linear forwards",
+        "move-down": "move-down 1s linear forwards",
       },
     },
   },
