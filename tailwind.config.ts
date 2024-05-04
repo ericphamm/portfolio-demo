@@ -67,14 +67,12 @@ const config = {
       },
       keyframes: {
         "move-up": {
-          from:{
-            transform: "translateY(10px)",
-            opacity:"0",
-          },
-          to:{
-            transform: "translateY(0px)",
-            opacity:"1",
-          },
+          from:{transform: "translateY(10px)", opacity:"0"},
+          to:{transform: "translateY(0px)", opacity:"1" },
+        },
+        "move-down": {
+          from:{ transform: "translateY(-10px)", opacity:"0" },
+          to:{ transform: "translateY(0px)", opacity:"1" },
         },
         "accordion-down": {
           from: { height: "0" },
@@ -88,6 +86,8 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "move-up": "move-up 1s linear fowards",
+        "move-down":"move-down 1s linear fowards",
       },
     },
   },
