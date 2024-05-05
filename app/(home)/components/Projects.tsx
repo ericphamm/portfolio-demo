@@ -8,28 +8,28 @@ import { SiNextdotjs, SiReact, SiTailwindcss } from 'react-icons/si';
 export default function Projects() {
 	const projects = [
 		{
-			title: 'Project 1',
+			title: 'Personal Portfolio Website',
 			tech: [SiNextdotjs, SiReact, SiTailwindcss],
 			link: 'http://localhost:3000/',
 			cover: '/project-1.png',
 			background : 'bg-indigo-500',
 		},
 		{
-			title: 'Project 1',
+			title: 'Nail Salon Website',
 			tech: [SiNextdotjs, SiReact, SiTailwindcss],
 			link: 'http://localhost:3000/',
 			cover: '/project-2.png',
 			background : 'bg-indigo-500',
 		},
 		{
-			title: 'Project 1',
+			title: 'Todo List',
 			tech: [SiNextdotjs, SiReact, SiTailwindcss],
 			link: 'http://localhost:3000/',
 			cover: '/project-3.png',
 			background : 'bg-indigo-500',
 		},
 		{
-			title: 'Project 1',
+			title: 'Calculator',
 			tech: [SiNextdotjs, SiReact, SiTailwindcss],
 			link: 'http://localhost:3000/',
 			cover: '/project-4.png',
@@ -42,10 +42,10 @@ export default function Projects() {
 		<div className='grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5'>
 			{projects.map((project,index)=> {
 				return <Link href={project.link} key={index}>
-					<div className={cn("p-5 rounded-md",project.background)}>
+					<div className={cn("p-2 rounded-md",project.background)}>
 						<DirectionAwareHover imageUrl={project.cover} className='w-full space-y-5 cursor-pointer'>
 							<div className='space-y-5'>
-							<h1 className='text-2xl font-bold'>{project.title}</h1>
+							<h1 className='text-3xl font-bold'>{project.title}</h1>
 							<div className='flex items-center gap-5'>
 								{project.tech.map((Icon, index) => {
 									return <Icon className='w-8 h-8' key={index} />;
