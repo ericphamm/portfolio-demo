@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import Facebook from '/facebook.svg'
-import Disney from '/disney.svg'
-import Airbnb from '/airbnb.svg'
-import Apple from '/apple.svg'
-import Spark from '/spark.svg'
-import Samsung from '/samsung.svg'
-import Quora from '/quora.svg'
-import Sass from '/sass.svg'
+import Facebook from '@/public/facebook.png'
+import Disney from '@/public/facebook.png'
+import Airbnb from '@/public/facebook.png'
+import Apple from '@/public/facebook.png'
+import Spark from '@/public/facebook.png'
+import Samsung from '@/public/facebook.png'
+import Quora from '@/public/facebook.png'
+import Sass from '@/public/facebook.png'
 
 export default function LogoCarousel() {
 

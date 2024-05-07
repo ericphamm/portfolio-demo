@@ -4,7 +4,6 @@ import { DirectionAwareHover } from '@/components/ui/direction-aware-hover';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { SiNextdotjs, SiReact, SiTailwindcss } from 'react-icons/si';
-import LogoCarousel from '@/components/ui/logo-carousel';
 
 export default function Projects() {
 	const projects = [
@@ -55,9 +54,7 @@ export default function Projects() {
 							</div>
 						</DirectionAwareHover>
 					</div>
-				</Link>;
-<LogoCarousel/>
-				
+				</Link>;				
 			})}
 
 		</div>
