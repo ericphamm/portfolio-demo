@@ -42,10 +42,10 @@ export default function Skills() {
 	]
   return (
 	<div className='max-w-5xl mx-auto px-8'>
-		<Title text="Skills" className='flex flex-col items-center justify-center'/>
-		<HoverEffect items={skills}/>
-		<div>
-		<LogoCarousel/>
+		{/* <Title text="Skills" className='flex flex-col items-center justify-center'/> */}
+		{/* <HoverEffect items={skills}/> */}
+		<div className=' pb-28'>
+		<LogoCarousel />
 		</div>
 
 	</div>
