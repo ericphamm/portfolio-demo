@@ -30,6 +30,14 @@ export default function Skills() {
 			text: 'TailwindCSS',
 			Icon: SiTailwindcss,
 		},
+		{
+			text: 'TailwindCSS',
+			Icon: SiTailwindcss,
+		},
+		{
+			text: 'TailwindCSS',
+			Icon: SiTailwindcss,
+		},
 	]
   return (
 	<div className='max-w-5xl mx-auto px-8'>

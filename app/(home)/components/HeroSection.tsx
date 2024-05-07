@@ -8,7 +8,7 @@ const words = `Oxygen gets you high. In a cata You accept your fate.  Blank face
 
 export default function HeroSection() {
   return (
-	<div className='min-h-[60vh] flex flex-col-reverse gap-10 lg:gap-0 lg:flex-row items-center justify-between animate-move-up  '>
+	<div className='min-h-[60vh] flex flex-col-reverse gap-10 lg:gap-0 lg:flex-row items-center justify-between animate-move-up'>
 		<div className='space-y-10 text-center lg:text-left '>
 			<h1 className='text-4xl lg:text-7xl font-bold'>
 				Nice to meet you! 
@@ -18,7 +18,7 @@ export default function HeroSection() {
 			<p className='md:w-96 text-lg text-gray-300'>
 				{"I am a front end developer based in Prague."}
 			</p>
-			<div className='bottom-5 sm:bottom-14 left-0 sm:left-10 '>
+			<div className='bottom-5 sm:bottom-14 left-0 '>
 				<MovingBorderBtn href={"mailto:themail@gnail.com"} borderRadius='0.5rem' className='p-3 font-semibold'>
 					<p>Available for work</p>
 				</MovingBorderBtn>
