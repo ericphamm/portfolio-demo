@@ -1,4 +1,4 @@
-import { SiAstro, SiJavascript, SiLinux, SiNextdotjs, SiPostgresql, SiReact, SiTypescript } from "react-icons/si";
+import { SiAstro, SiC, SiJavascript, SiLinux, SiNextdotjs, SiPostgresql, SiPython, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 export default function LogoCarousel() {
 
@@ -6,10 +6,15 @@ export default function LogoCarousel() {
     { Icon: SiReact, alt: 'React' },
     { Icon: SiNextdotjs, alt: 'React' },
     { Icon: SiTypescript, alt: 'React' },
+	{ Icon: SiTailwindcss, alt: 'React' },
     { Icon: SiAstro , alt: 'React' },
     { Icon: SiPostgresql, alt: 'React' },
     { Icon: SiLinux, alt: 'React' },
     { Icon: SiJavascript , alt: 'React' },
+	{ Icon: SiPython , alt: 'React' },
+	{ Icon: SiC , alt: 'React' },
+
+
 ]
 
   return (
