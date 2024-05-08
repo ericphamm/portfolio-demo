@@ -19,7 +19,7 @@ export default function HeroSection() {
 				{"I am a front end developer based in Prague."}
 			</p>
 			<div className='bottom-5 sm:bottom-14 left-0 '>
-				<MovingBorderBtn href={"mailto:themail@gnail.com"} borderRadius='0.5rem' className='p-3 font-semibold hover:bg-slate-800/[0.8] border border-slate-800 backdrop-blur-xl text-white'>
+				<MovingBorderBtn href={"mailto:themail@gnail.com"} borderRadius='0.5rem' className='p-3 font-semibold hover:bg-slate-800/[0.8] hover:border-[#3c82b5] backdrop-blur-xl text-white'>
 					<p className='px-5 text-1xl'>Get in touch!</p>
 				</MovingBorderBtn>
 			</div>
