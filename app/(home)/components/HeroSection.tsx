@@ -20,7 +20,7 @@ export default function HeroSection() {
 			</p>
 			<div className='bottom-5 sm:bottom-14 left-0 '>
 				<MovingBorderBtn href={"mailto:themail@gnail.com"} borderRadius='0.5rem' className='p-3 font-semibold hover:bg-slate-800/[0.8] border border-slate-800 backdrop-blur-xl text-white'>
-					<p>Available for work</p>
+					<p className='px-5 text-1xl'>Get in touch!</p>
 				</MovingBorderBtn>
 			</div>
 		</div>
